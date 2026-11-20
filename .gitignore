@@ -1,0 +1,12 @@
+# Godot
+.godot/
+*.translation
+export_presets.cfg
+/build/
+
+# GodotSteam is a named dependency and is never committed.
+/addons/godotsteam/
+steam_appid.txt
+
+# OS
+.DS_Store

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://tests/feature_scenes/common/lan_menu.tscn" id="1"]
+
+[node name="Menu" instance=ExtResource("1")]
+room_scene = "res://tests/feature_scenes/02_nachzuegler/room.tscn"
+header = "02 Late joiners. Shows a room with player figures and crates that every player sees, also players who join while it runs. Host first, then join from other instances, early or late. Read: tests/feature_scenes/02_nachzuegler/room.gd, tests/feature_scenes/common/figures.gd, tests/feature_scenes/common/figure.gd, tests/feature_scenes/02_nachzuegler/crate.gd"

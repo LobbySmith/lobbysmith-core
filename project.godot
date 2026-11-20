@@ -1,0 +1,18 @@
+; Engine configuration file.
+; Pinned to Godot 4.7 (standard build, GDScript only).
+
+config_version=5
+
+[application]
+
+config/name="LobbySmith"
+config/features=PackedStringArray("4.7")
+run/main_scene="res://tests/feature_scenes/01_lobby_raumcode_lan/lobby.tscn"
+
+[autoload]
+
+LobbySmith="*res://addons/lobbysmith_core/lobbysmith.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/lobbysmith_core/plugin.cfg")

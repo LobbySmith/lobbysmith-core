@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://tests/feature_scenes/common/lan_menu.tscn" id="1"]
+
+[node name="Menu" instance=ExtResource("1")]
+room_scene = "res://tests/feature_scenes/03_szenenwechsel/room_a.tscn"
+header = "03 Scene change. Shows two rooms, A and B. The host switches between them, everyone follows, and a list shows who has the new room ready. Host first, then join from other instances. Read: tests/feature_scenes/03_szenenwechsel/room.gd, tests/feature_scenes/03_szenenwechsel/room_a.tscn, tests/feature_scenes/03_szenenwechsel/room_b.tscn"

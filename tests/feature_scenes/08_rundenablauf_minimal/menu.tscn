@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://tests/feature_scenes/common/lan_menu.tscn" id="1"]
+
+[node name="Menu" instance=ExtResource("1")]
+room_scene = "res://tests/feature_scenes/08_rundenablauf_minimal/room.tscn"
+header = "08 Round flow. The host starts and ends rounds, everyone presses a point button during a round, and the points of the round are its result. A late joiner sees the running round. Host first, then join from other instances. Read: addons/lobbysmith_core/rounds.gd, addons/lobbysmith_core/shared_state.gd, tests/feature_scenes/08_rundenablauf_minimal/room.gd"
